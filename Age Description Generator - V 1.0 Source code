@@ -1,0 +1,115 @@
+#startup for AGE GENERATOR: Version 1.0
+
+
+import time
+
+#imported time
+
+print("...")
+time.sleep(0.5)
+
+print("Opening..")
+time.sleep(0.9)
+
+print("WELCOME TO:")
+time.sleep(0.5)
+
+print("Age Generator: Version 1.0")
+time.sleep(0.9)
+
+#credit roll
+
+print("original python project by cycoo4")
+
+time.sleep(1.5)
+
+#cancel option added 9-27-21
+
+isCorrectInput = False
+
+while isCorrectInput == False:
+    
+    val = input("To cancel, type 1. To continue, press 2: ")
+
+    if val == ("1"):
+        print("Cancelling...")
+        time.sleep(0.5)
+        exit(0)
+
+    if val == ("2"): isCorrectInput = True
+
+
+time.sleep(1.5)
+
+#player is loading game and playing profile confirmed
+
+print("Loading..")
+time.sleep(1.5)
+
+#finding age
+
+isCorrectInput = False
+
+while isCorrectInput == False:
+
+    val = input("Input age: ") 
+
+    age = int(val)
+
+    if age < 10:
+        print("Age is too low!")
+        time.sleep(0.8)
+
+    if age >= 10:
+        isCorrectInput = True
+
+
+#started new age description chart 9-27-21 "IM ON THE FLOOR LAUGHING"
+#added code loading string for age chart 9-28-21
+
+print("Loading in Chart...")
+time.sleep(1.8)
+
+print("Age Chart:")
+time.sleep(0.8)
+
+print("Age 10 - 19: Young, looking strong! (But geez, these growing pains suck)!")
+time.sleep(1.8)
+print("Age 20 - 29: Getting older; growing less and less by the day...")
+time.sleep(1.8)
+print("Age 30 - 39: You have stopped growing altogether. Now the only part of your body that is still developing is your mind.")
+time.sleep(1.8)
+print("Age 40 - 49: If you weren't before, now your hair is going white, and you may even start to shrink! AAARGH!")
+time.sleep(1.8)
+print("Age 50 - 59: Alright, now you KNOW you're getting old, because you can't remember what happened when you were 22!")
+time.sleep(1.8)
+print("Age 60 - 69: You shrink, your skin is wrinkily, and you may have already gon full silver with your hair! These are all signs of getting old!")
+time.sleep(1.8)
+print("Age 70 - 79: Your skin has become so precious that you need many creams, just to keep it nice and smooth. Your speed is slower, but the wise old mind is still there!")
+time.sleep(0.8)
+print("Age 80 - 89: Remember the good old days, when your body was like elastic? Sure you do! You'd love to have that feeling. Plus, you dont even know how to use these NEW-FANGELED-YOUNG-PEOPLE-GADGETS!")
+time.sleep(0.8)
+print("(Also, why need to take away my driver's liscense!?!?!?!?!?!)")
+time.sleep(1.5)
+
+#game paused
+
+isCorrectInput = False
+
+while isCorrectInput == False:
+    
+    val = input("To be able to read, I have paused the game. To continue, type 1. ")
+    if val == ("1"): isCorrectInput = True
+
+#longer credit roll
+
+time.sleep(1)
+print("If you enjoyed, stay tuned, as cycoo4 will release a new update soon! You can DM him on Discord at cycoo4#4444. Plus, he posts videos here!: https://www.youtube.com/channel/UC59BSpVifRrk0KV2l963dag")
+time.sleep(6)
+
+print("Ending session...")
+
+time.sleep(1)
+
+
+exit(0)
